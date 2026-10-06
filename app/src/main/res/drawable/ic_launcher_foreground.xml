@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Graduation Cap Top -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M54,23 L75,32 L54,41 L33,32 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M75,32 L75,38 L72,40 L72,33.3 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M43,37 L43,43 C43,47.5 50.5,50 54,50 C57.5,50 65,47.5 65,43 L65,37 C61.8,39 57.8,40 54,40 C50.2,40 46.2,39 43,37 Z" />
+
+    <!-- Open Book / Planner Left Page -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M27,51 C27,48.5 29,47 31.5,47 L51,47 C52.5,47 53,48 53,50 L53,79 C53,80.5 51.5,81 50,80.5 L31.5,77 C29,76.5 27,74.5 27,72 Z" />
+
+    <!-- Open Book / Planner Right Page -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M81,51 C81,48.5 79,47 76.5,47 L57,47 C55.5,47 55,48 55,50 L55,79 C55,80.5 56.5,81 58,80.5 L76.5,77 C79,76.5 81,74.5 81,72 Z" />
+
+    <!-- Left Page Content lines -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M33,54 L47,54 C47.6,54 48,54.4 48,55 C48,55.6 47.6,56 47,56 L33,56 C32.4,56 32,55.6 32,55 C32,54.4 32.4,54 33,54 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M33,60 L47,60 C47.6,60 48,60.4 48,61 C48,61.6 47.6,62 47,62 L33,62 C32.4,62 32,61.6 32,61 C32,60.4 32.4,60 33,60 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M33,66 L43,66 C43.6,66 44,66.4 44,67 C44,67.6 43.6,68 43,68 L33,68 C32.4,68 32,67.6 32,67 C32,66.4 32.4,66 33,66 Z" />
+
+    <!-- Right Page Checkmarks & lines -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M61,53.5 L63,55.5 L67.5,51 C68,50.6 68.6,50.6 69,51 C69.4,51.4 69.4,52 69,52.4 L63.8,57.6 C63.4,58 62.6,58 62.2,57.6 L59.5,54.9 C59.1,54.5 59.1,53.9 59.5,53.5 C59.9,53.1 60.6,53.1 61,53.5 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M71,54 L75,54 C75.6,54 76,54.4 76,55 C76,55.6 75.6,56 75,56 L71,56 C70.4,56 70,55.6 70,55 C70,54.4 70.4,54 71,54 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M61,61.5 L63,63.5 L67.5,59 C68,58.6 68.6,58.6 69,59 C69.4,59.4 69.4,60 69,60.4 L63.8,65.6 C63.4,66 62.6,66 62.2,65.6 L59.5,62.9 C59.1,62.5 59.1,61.9 59.5,61.5 C59.9,61.1 60.6,61.1 61,61.5 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M71,62 L75,62 C75.6,62 76,62.4 76,63 C76,63.6 75.6,64 75,64 L71,64 C70.4,64 70,63.6 70,63 C70,62.4 70.4,62 71,62 Z" />
+
+    <!-- Central Ribbon / Bookmark -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M52,47 L56,47 L56,76 L54,73 L52,76 Z" />
+</vector>

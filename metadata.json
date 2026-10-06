@@ -1,0 +1,6 @@
+{
+  "name": "Estudos do Sergio",
+  "description": "Aplicativo completo de estudo, organização e planner acadêmico com caderno rico, slides, calendário, questões, flashcards e gestão curricular.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

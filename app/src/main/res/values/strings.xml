@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Estudos do Sergio</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_calendar">Calendário</string>
+    <string name="nav_questions">Banco de Questões</string>
+    <string name="nav_flashcards">Flashcards</string>
+    <string name="nav_curriculum">Gestão Curricular</string>
+    <string name="stat_notes">Anotações</string>
+    <string name="stat_questions">Questões</string>
+    <string name="stat_flashcards">Flashcards</string>
+</resources>
