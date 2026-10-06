@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Acessar repositório
+      - name: Aceder ao repositório
         uses: actions/checkout@v4
 
       - name: Configurar Java 17
@@ -16,13 +16,16 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Gerar ficheiro gradlew
+        run: gradle wrapper
+
       - name: Permissão para o Gradle
         run: chmod +x gradlew
 
       - name: Gerar APK
         run: ./gradlew assembleDebug
 
-      - name: Salvar APK para Download
+      - name: Guardar APK para Download
         uses: actions/upload-artifact@v4
         with:
           name: App-Instalador
