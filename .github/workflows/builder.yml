@@ -1,0 +1,29 @@
+name: 2 - Compilar APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Acessar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Permissão para o Gradle
+        run: chmod +x gradlew
+
+      - name: Gerar APK
+        run: ./gradlew assembleDebug
+
+      - name: Salvar APK para Download
+        uses: actions/upload-artifact@v4
+        with:
+          name: App-Instalador
+          path: app/build/outputs/apk/debug/*.apk
